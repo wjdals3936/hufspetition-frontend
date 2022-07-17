@@ -18,7 +18,7 @@ const Navbar = () => {
       <Bars />
       <NavMenu>
         <NavLink to='/notice' activeStyle>
-          공지사항2
+          공지사항
         </NavLink>
         <NavLink to='/hot-board' activeStyle>
           HOT게시판
