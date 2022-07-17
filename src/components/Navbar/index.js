@@ -35,7 +35,7 @@ const Navbar = () => {
         <NavLink to='/school-introduction' activeStyle>
           학교소개
         </NavLink>
-        <NavLink to='/Q&A' activeStyle>
+        <NavLink to='/q&a' activeStyle>
           Q&A
         </NavLink>
         </NavMenu>
