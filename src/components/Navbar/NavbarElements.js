@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { NavLink as Link } from 'react-router-dom';
 import {FaBars} from 'react-icons/fa';
 
-{/*사이트명&로그인 배경*/}
+/*사이트명&로그인 배경*/
 export const Na = styled.nav`
     background: #fff;
     height: 50px;
@@ -15,7 +15,7 @@ export const Na = styled.nav`
     white-space: nowrap;
 `;
 
-{/*게시판카테고리 배경*/}
+/*게시판카테고리 배경*/
 export const Nav = styled.nav`
     background: #152C46;
     height: 80px;
@@ -24,13 +24,13 @@ export const Nav = styled.nav`
     padding: 0.5rem calc((100vw - 2000px) / 2);
     z-index: 10;
 `;
-{/* 글자크기 변경 실패
+/* 글자크기 변경 실패
 export const h1 = styled.nav`
     pont-size: 1000px;
 `;
-*/}
+*/
 
-{/*게시판카테고리line*/}
+/*게시판카테고리line*/
 export const NavLink = styled(Link)`
     color: #fff;
     display: flex;
@@ -59,7 +59,7 @@ export const Search = styled.div`
     border-radius: 30px;
 `;
 
-{/*???*/}
+/*???*/
 export const Bars = styled(FaBars)`
     display: none;
     color: #fff;

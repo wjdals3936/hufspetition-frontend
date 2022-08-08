@@ -36,7 +36,7 @@ function Endpetition() {
   return (<>
 
     <h1>동의종료된 청원</h1>
-    <input type="text" placeholder="Enter item to be searched" onChange={(e)=>this.searchSpace(e)} />
+    <div class="search"><input type="text" placeholder="Enter item to be searched" onChange={(e)=>this.searchSpace(e)} /></div>
     <CommonTable headersName={['글번호', '제목', '작성자', '작성일', '조회수']}>
       {item}
     </CommonTable>
