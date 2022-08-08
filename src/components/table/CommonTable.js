@@ -1,5 +1,5 @@
 import React from 'react';
-import './CommonTableColumn.js';
+import './CommonTable.css';
 
 const CommonTable = props => {
   const { headersName, children } = props;
