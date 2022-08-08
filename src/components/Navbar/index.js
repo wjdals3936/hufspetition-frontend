@@ -6,14 +6,14 @@ const Navbar = () => {
     <>
     <Na>
       <NavLink to="/">
-        <h1 style={{color: '#000'}}>Logo</h1>
+        <h1 style={{color: '#000', size: '40px'}}>대학신문고</h1>
       </NavLink>
       <NavBtn>
         <NavBtnLink to='/signin'>로그인</NavBtnLink>
         <NavBtnLink to='/signup'>회원가입</NavBtnLink>
       </NavBtn>
     </Na>
-    
+
     <Nav>
       <Bars />
       <NavMenu>
@@ -40,7 +40,6 @@ const Navbar = () => {
         </NavLink>
         </NavMenu>
     </Nav>
-    <img src="img/img.jpg" alt="img"/>
     </>
   );
 }
